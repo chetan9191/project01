@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LCO JUICE SHOP</title>
+
+
+</head>
+<body>
+<div class="container ccon">
+  <div class="row crow">
+  
+    <div class="col-sm-4">
+      <img src="img/1.png" class="img-fluid cim" alt="Responsive image">
+	  JUICE SHOP
+    </div>
+	
+    <div class="col-sm-8">
+      <ul class="nav nav-pills">
+  <li class="nav-item">
+    <a class="nav-link active" href="#pic">HOME</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#juicevariety">JUICE CHART</a>
+  </li>
+  <li class="nav-item">
+   <a class="nav-link" href="#juice-chart" id="confirm-sec" onclick="myFunction()">CONFIRM ORDER</a>
+  </li>
+<li class="nav-item">
+    <a class="nav-link" href="#contact-sec">CONTACT</a>
+  </li>
+ 
+</ul>
+    </div>
+
+  </div>
+  
+  
+  <div class="row">
+    <div class="col-xl-12 ">
+ 
+ 
+ 
+ 
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" id="pic">
+    <div class="item active">
+      <img src="img/j1.jpg" alt="">
+    </div>
+
+    <div class="item">
+      <img src="img/j2.jpg" alt="">
+    </div>
+
+    <div class="item">
+      <img src="img/j3.jpg" alt="">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+ 
+ 
+
+ 
+ </div>       
+  </div>
+  
+  
+  
+   <div class="row">
+    <div class="col-sm-4">
+     <div class="list-group" id="juicevariety">
+  <button type="button" class="list-group-item list-group-item-action active" id="juice-chart">
+   VARIETY OF JUICES <br><strong>(LARGE-Rs.100, MEDIUM-Rs.50, SMALL-Rs.25)</strong>
+  </button>
+  <strong>
+  <button type="button" class="list-group-item list-group-item-action" data-toggle="collapse" data-target="#collapseExample" href="odiv" aria-expanded="false" 
+  aria-controls="collapseExample" id="o-sec">ORANGE JUICE</button>
+  <div class="collapse" id="collapseExample">
+  <div class="card card-body">
+   <strong>
+  Vitamin B6 - 0.3 mg.</br>
+  Manganese - 0.7 mg.</br>
+  Vitamin C - 13 mg.</br>
+  Potassium - 550 mg.</br>
+  Dietary Fiber - 3.4g.</br>
+  Protein - 1.6 g.</br>
+  Magnesium - 40 mg.</br>
+  Folate - 51.0 mcg.</br></strong><br>
+  <strong>Order Now</strong></br><br>
+  
+   <a href="#confirm-sec" onclick="myPriceLarge()" style="
+  background-color: #E8290B;
+  color: white;
+  padding: 2% 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+">LARGE</a> 
+
+   <a href="#confirm-sec" onclick="myPriceMedium()" style="
+  background-color: #6AB04A;
+  color: white;
+   padding: 2% 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+">MEDIUM</a> 
+
+<a href="#confirm-sec" onclick="myPriceSmall()" style="
+  background-color:#E1DA00;
+  color: white;
+  padding: 2% 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+">SMALL</a>
+   </p>
+  </div>
+</div>
+  
+  <button type="button" class="list-group-item list-group-item-action" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" 
+  aria-controls="collapseExample">BANANA SHAKE</button>
+  <div class="collapse" id="collapseExample2">
+  <div class="card card-body">
+   <strong>
+  Vitamin B6 - 0.5 mg.</br>
+  Manganese - 0.3 mg.</br>
+  Vitamin C - 9 mg.</br>
+  Potassium - 450 mg.</br>
+  Dietary Fiber - 3g.</br>
+  Protein - 1 g.</br>
+  Magnesium - 34 mg.</br>
+  Folate - 25.0 mcg.</br></strong><br>
+  <strong>Order Now</strong></br><br>
+   <a href="#confirm-sec" onclick="myPriceLarge()" style="
+  background-color: #E8290B;
+  color: white;
+  padding: 2% 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+">LARGE</a> 
+
+  <a href="#confirm-sec" onclick="myPriceMedium()" style="
+  background-color: #6AB04A;
+  color: white;
+ padding: 2% 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+">MEDIUM</a> 
+
+ <a href="#confirm-sec" onclick="myPriceSmall()" style="
+  background-color:#E1DA00;
+  color: white;
+  padding: 2% 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+">SMALL</a>
+   </p>
+  </div>
+</div>
+
+
+<button type="button" class="list-group-item list-group-item-action" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" 
+  aria-controls="collapseExample">PINEAPPLE JUICE</button>
+  <div class="collapse" id="collapseExample3">
+  <div class="card card-body">
+   <strong>
+  Vitamin B6 - 0.5 mg.</br>
+  Manganese - 0.3 mg.</br>
+  Vitamin C - 9 mg.</br>
+  Potassium - 450 mg.</br>
+  Dietary Fiber - 3g.</br>
+  Protein - 1 g.</br>
+  Magnesium - 34 mg.</br>
+  Folate - 25.0 mcg.</br></strong><br>
+  <strong>Order Now</strong></br><br>
+     <a href="#confirm-sec" onclick="myPriceLarge()" style="
+  background-color: #E8290B;
+  color: white;
+  padding: 2% 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+">LARGE</a> 
+
+    <a href="#confirm-sec" onclick="myPriceMedium()" style="
+  background-color: #6AB04A;
+  color: white;
+  padding: 2% 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+">MEDIUM</a> 
+
+
+<a href="#confirm-sec" onclick="myPriceSmall()" style="
+  background-color:#E1DA00;
+  color: white;
+  padding: 2% 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+">SMALL</a>
+</p>
+  </div>
+</div>
+ 
+ 
+ 
+ <button type="button" class="list-group-item list-group-item-action" data-toggle="collapse" data-target="#collapseExample4" aria-expanded="false" 
+  aria-controls="collapseExample">GUAVA JUICE</button>
+  <div class="collapse" id="collapseExample4">
+  <div class="card card-body">
+   <strong>
+  Vitamin B6 - 0.5 mg.</br>
+  Manganese - 0.3 mg.</br>
+  Vitamin C - 9 mg.</br>
+  Potassium - 450 mg.</br>
+  Dietary Fiber - 3g.</br>
+  Protein - 1 g.</br>
+  Magnesium - 34 mg.</br>
+  Folate - 25.0 mcg.</br></strong><br>
+  <strong>Order Now</strong></br><br>
+     <a href="#confirm-sec" onclick="myPriceLarge()" style="
+  background-color: #E8290B;
+  color: white;
+  padding: 2% 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+">LARGE</a> 
+  
+ <a href="#confirm-sec" onclick="myPriceMedium()" style="
+  background-color: #6AB04A;
+  color: white;
+  padding: 2% 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+">MEDIUM</a> 
+ 
+ <a href="#confirm-sec" onclick="myPriceSmall()" style="
+  background-color:#E1DA00;
+  color: white;
+  padding: 2% 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+">SMALL</a>
+ </p>
+  </div>
+</div>
+ 
+ 
+ 
+  <button type="button" class="list-group-item list-group-item-action" data-toggle="collapse" data-target="#collapseExample6" aria-expanded="false" 
+  aria-controls="collapseExample">CARROT JUICE</button>
+  <div class="collapse" id="collapseExample6">
+  <div class="card card-body">
+     <strong>
+  Vitamin B6 - 0.5 mg.</br>
+  Manganese - 0.3 mg.</br>
+  Vitamin C - 9 mg.</br>
+  Potassium - 450 mg.</br>
+  Dietary Fiber - 3g.</br>
+  Protein - 1 g.</br>
+  Magnesium - 34 mg.</br>
+  Folate - 25.0 mcg.</br></strong><br>
+  <strong>Order Now</strong></br><br>
+    <a href="#confirm-sec" onclick="myPriceLarge()" style="
+  background-color: #E8290B;
+  color: white;
+  padding: 2% 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+">LARGE</a> 
+   
+ <a href="#confirm-sec" onclick="myPriceMedium()" style="
+  background-color: #6AB04A;
+  color: white;
+  padding: 2% 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+">MEDIUM</a> 
+   
+   <a href="#confirm-sec" onclick="myPriceSmall()" style="
+  background-color:#E1DA00;
+  color: white;
+  padding: 2% 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+">SMALL</a>
+</p>
+  </div>
+</div>
+
+
+ <button type="button" class="list-group-item list-group-item-action" data-toggle="collapse" data-target="#collapseExample7" aria-expanded="false" 
+  aria-controls="collapseExample">MIX FRUIT JUICE(with different composition)</button>
+  <div class="collapse" id="collapseExample7">
+  <div class="card card-body">
+    <strong>
+  Vitamin B6 - 0.5 mg.</br>
+  Manganese - 0.3 mg.</br>
+  Vitamin C - 9 mg.</br>
+  Potassium - 450 mg.</br>
+  Dietary Fiber - 3g.</br>
+  Protein - 1 g.</br>
+  Magnesium - 34 mg.</br>
+  Folate - 25.0 mcg.</br></strong><br>
+  <strong>Order Now</strong></br><br>
+    <a href="#confirm-sec" onclick="myPriceLarge()" style="
+  background-color: #E8290B;
+  color: white;
+  padding: 2% 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+">LARGE</a> 
+   
+ <a href="#confirm-sec" onclick="myPriceMedium()" style="
+  background-color: #6AB04A;
+  color: white;
+  padding: 2% 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+">MEDIUM</a> 
+   <a href="#confirm-sec" onclick="myPriceSmall()" style="
+  background-color:#E1DA00;
+  color: white;
+  padding: 2% 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+">SMALL</a>
+</p>
+  </div>
+</div>
+
+
+
+ <button type="button" class="list-group-item list-group-item-action" data-toggle="collapse" data-target="#collapseExample8" aria-expanded="false" 
+  aria-controls="collapseExample">CHERRY JUICE</button>
+  <div class="collapse" id="collapseExample8">
+  <div class="card card-body">
+  <strong>
+  Vitamin B6 - 0.5 mg.</br>
+  Manganese - 0.3 mg.</br>
+  Vitamin C - 9 mg.</br>
+  Potassium - 450 mg.</br>
+  Dietary Fiber - 3g.</br>
+  Protein - 1 g.</br>
+  Magnesium - 34 mg.</br>
+  Folate - 25.0 mcg.</br></strong><br>
+  <strong>Order Now</strong></br><br>
+         <a href="#confirm-sec" onclick="myPriceLarge()" style="
+  background-color: #E8290B;
+  color: white;
+  padding: 2% 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+">LARGE</a> 
+  
+ <a href="#confirm-sec" onclick="myPriceMedium()" style="
+  background-color: #6AB04A;
+  color: white;
+  padding: 2% 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+">MEDIUM</a> 
+ 
+ <a href="#confirm-sec" onclick="myPriceSmall()" style="
+  background-color:#E1DA00;
+  color: white;
+  padding: 2% 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+">SMALL</a>
+
+ </p>
+  </div>
+</div>
+
+
+
+ <button type="button" class="list-group-item list-group-item-action" data-toggle="collapse" data-target="#collapseExample9" aria-expanded="false" 
+  aria-controls="collapseExample">PAPAYA JUICE</button>
+  <div class="collapse" id="collapseExample9">
+  <div class="card card-body">
+   <strong>
+  Vitamin B6 - 0.8 mg.</br>
+  Manganese - 0.3 mg.</br>
+  Vitamin C - 9 mg.</br>
+  Potassium - 550 mg.</br>
+  Dietary Fiber - 3g.</br>
+  Protein - 1 g.</br>
+  Magnesium - 34 mg.</br>
+  Folate - 25.0 mcg.</br></strong><br>
+  <strong>Order Now</strong></br><br>
+    <a href="#confirm-sec" onclick="myPriceLarge()" style="
+  background-color: #E8290B;
+  color: white;
+  padding: 2% 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+">LARGE</a> 
+   
+ <a href="#confirm-sec" onclick="myPriceMedium()" style="
+  background-color: #6AB04A;
+  color: white;
+  padding: 2% 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+">MEDIUM</a> 
+   <a href="#confirm-sec" onclick="myPriceSmall()" style="
+  background-color:#E1DA00;
+  color: white;
+  padding: 2% 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+">SMALL</a>
+</p>
+  </div>
+</div>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+    </div>
+    <div class="col-sm-8">
+      
+	   <div class="row">
+    <div class="col-sm-6">
+	<img src="img/f1.png" class="i1">
+	<ul>ORANGE JUICE</ul>
+     <p><strong>The perfect combination of taste and nutrition! 
+   Pure orange juice, squeezed from fresh-picked oranges.
+   Different varieties available, including blood orange, navel oranges, valencia orange, clementine, and tangerine.</strong><br>
+  
+ 
+    </div>
+    <div class="col-sm-6">
+	<img src="img/f2.png" class="i2">
+	<ul>MILK SHAKE</ul>
+       <p><strong>A milkshake made with just 1/2 cup of sliced bananas and 1 cup of skim milk is fat-free and contains 160 calories, making 
+	it a good addition to a weight-loss regimen. The milkshake is a good source of heart-healthy fiber and protein.</strong><br>
+   
+   </div>
+  </div>
+  
+   <div class="row">
+    <div class="col-sm-6">
+	<img src="img/f3.png" class="i3">
+	<ul>PINEAPPLE JUICE</ul>
+      <p><strong>Fresh and juicy, pineapples are the first fruit that comes to your mind when you think of a tropical 
+   food (or anything tropical for that matter). Embracing the beautiful sun rays and gathering irresistible exotic sweetness, 
+   pineapples are a fruit that reminds us of passionate summer nights and romantic exotic escapes.</strong><br>
+    
+	</div>
+    <div class="col-sm-6">
+	<img src="img/f4.png" class="i4">
+	<ul>GUAVA JUICE</ul>
+       <p><strong>It is a common tropical fruit cultivated in many tropical and subtropical regions. Its taste will make you go weak on knees.
+	A must-try healty juice with a essence of sweetness.</strong><br>
+  
+   </div>
+  </div>
+  
+   <div class="row">
+    <div class="col-sm-6">
+	<img src="img/f5.png" class="i5">
+	<ul>CARROT JUICE</ul>
+      <p><strong>Tasty carrot juice with a pinch of lemon and ginger. Very high in Vitamin A, as well as Vitamins B and C, Iron and Calcium.
+	 A perfect blend of nutrition and taste. </strong><br>
+   
+   </div>
+    <div class="col-sm-6">
+	<img src="img/f6.png" class="i6">
+	<ul>MIX FRUIT JUICE</ul>
+     <p><strong><ul>
+	 <li>Starfruit and strawberries</li>
+	 <li>Avocado and papaya</li>
+	 <li>Bittergourd, apple and lemon
+</li>
+	 <li>Cucumber, kale and pear</li>
+	 <li>Avocado, celery, cucumber and lemon</li>
+	 </uL></strong>
+   
+	</div>
+  </div>
+  
+   <div class="row">
+    <div class="col-sm-6">
+	<img src="img/f7.png" class="i7">
+	<ul>CHERRY JUICE</ul>
+     <p><strong>Cherry juice is a popular drink with links to several health benefits, including boosting the immune system, improving memory, and aiding sleep.
+   A must-try healty juice with a essence of sweetness.</strong><br>
+ 
+   </div>
+    <div class="col-sm-6">
+	<img src="img/f8.png" class="i8">
+	<ul>PAPAYA JUICE</ul>
+       <p><strong>Papaya, a tropical fruit, has smooth texture and aromatic taste when ripe. 
+	Papaya juice prepared with this recipe is a heavenly experience for palate and provides 
+	healthy dose of nutrients and minerals like calcium, chlorine, iron, phosphorus, potassium, etc. 
+	There are many benefits of this juice and it’s particularly useful in curing diseases related to blood, constipation and heart.</strong><br>
+   
+   </div>
+  </div>
+	  
+    </div>
+  </div>
+
+
+
+
+
+   <div class="row">
+    <div class="col-sm-6 foo1" id="contact-sec">
+      <img src="img/facebook.png">
+	  <img src="img/twitter.png">
+	  <img src="img/google-plus.png">
+    </div>
+    <div class="col-sm-6 foo2">
+	 <p>ADDRESS</p>
+     <p>INDIA BIHAR </p>
+	 <p>PATNA</p>
+    </div>
+  </div>
+  
+</div>
+
+
+
+</script>
+ <script>
+var amount;
+function myPriceLarge() {
+  var txt;
+  var quantity = prompt("Please enter quantity:");
+  if (quantity == null || quantity == "") {
+    txt = alert("No selection made.");
+  } else {
+  amount= 100*quantity;
+	alert("Please confirm order!");
+  }
+}
+function myPriceMedium() {
+  var txt;
+  var quantity = prompt("Please enter quantity:");
+  if (quantity == null || quantity == "") {
+    txt = alert("No selection made.");
+  } else {
+  amount= 50*quantity;
+	alert("Please confirm order!");
+  }
+}
+function myPriceSmall() {
+  var txt;
+  var quantity = prompt("Please enter quantity:");
+  if (quantity == null || quantity == "") {
+    txt = alert("No selection made.");
+  } else {
+  amount= 25*quantity;
+	alert("Please confirm order!");
+  }
+}
+function myFunction(){
+  var txt;
+  var person = prompt("Please enter your name:");
+  var res = person.toUpperCase();
+  if (person == null || person == "") {
+    txt = alert("You cancelled the confirmation.");
+  } else {
+  if(amount==null)
+    alert("Hello " + res + "! Please make your selection from Juice Chart. Thank-You!");
+     else
+	     alert("Hello " + res + "! Your order is ready and amount is Rs "+amount+".");
+  }
+}
+</script>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
